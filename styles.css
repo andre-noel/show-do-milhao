@@ -56,9 +56,27 @@
   color: black;
 }
 
-.pontuacao, .pontuacao span {
+.pontuacao, .pontuacaoLabel {
   color: white;
   font-weight: 700;
   text-align: center;
   margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pontuacaoLabel {
+  margin-top: 0;
+}
+
+.pontuacao .box,
+.pontuacaoLabel div {
+  width: 150px;
+  margin: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#btnPerguntar {
+  visibility: hidden;
 }
